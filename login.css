@@ -1,0 +1,59 @@
+/* Login Section Styles */
+
+.login-section {
+    padding: 20px;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .card-body {
+    padding: 2rem;
+  }
+  
+  .card h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    color: #6c757d; /* Gray text for description */
+  }
+  
+  .form-label {
+    font-weight: 500;
+  }
+  
+  .form-control {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .text-decoration-none {
+    color: #007bff;
+  }
+  
+  .text-decoration-none:hover {
+    text-decoration: underline;
+  }

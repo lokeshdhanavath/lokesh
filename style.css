@@ -1,0 +1,131 @@
+/* Custom CSS for Navbar */
+.navbar {
+  padding: 20px 20px; /* Increase padding to increase height */
+  background-color: black;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  margin-right: 15px;
+  
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.nav-link:hover {
+  color: rgb(241, 234, 231); /* Highlight color on hover */
+}
+
+/* Active Link Styles */
+.nav-link.active {
+  color: #007bff; /* Active link color */
+  font-weight: bold; /* Optional: Make active link bold */
+}
+
+/* Add spacing between navbar items */
+.nav-item.mx-2 {
+  margin-left: 0.5rem !important;
+  margin-right: 0.5rem !important;
+}
+
+/* Button Styles */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.btn-outline-light {
+  border-color: white;
+  color: white;
+}
+
+.btn-outline-light:hover {
+  background-color: white;
+  color: #0A2463; /* Dark blue text on hover */
+}
+
+/* Hero Section */
+.hero-section {
+  background-image: url("hero.jpg"); /* Update this path */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding-top: 70px; /* Add padding to account for fixed navbar */
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  z-index: 1;
+}
+
+.hero-section .container {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-section h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.hero-section p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-section .btn {
+  font-size: 1.2rem;
+  padding: 10px 30px;
+  border-radius: 25px; /* Rounded button */
+}
+/* Footer Styling */
+.footer {
+  background-color: #222; /* Darker background for a sleek look */
+  padding: 20px 0;
+}
+
+.footer a {
+  color: #bbb; /* Light gray for better contrast */
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #fff; /* White on hover for better visibility */
+}
+
+.footer .social-media a {
+  font-size: 20px;
+  margin: 0 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer .social-media a:hover {
+  color: #007bff; /* Bootstrap primary blue */
+}
+
